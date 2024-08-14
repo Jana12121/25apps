@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Qr } from "./components";
-import { LDMode } from "./components";
+import { Qr, LDMode, ScrollIndicator } from "./components";
 import "./App.css";
 
 function App() {
@@ -10,7 +9,10 @@ function App() {
       {/* <Qr /> */}
 
       {/* Light Dark Mode */}
-      <LDMode />
+      {/* <LDMode /> */}
+
+      {/* Custom Scroll Indicator */}
+      <ScrollIndicator />
     </div>
   );
 }
