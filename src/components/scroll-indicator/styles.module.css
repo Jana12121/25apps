@@ -1,2 +1,28 @@
-.container {
+.topContainer {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #c29e2a;
+  text-align: center;
+  color: white;
+}
+
+.scrollProgress {
+  width: 100%;
+  height: 10px;
+  background-color: #c8d697;
+}
+
+.currentScroll {
+  height: 10px;
+  background-color: rgb(94, 184, 169);
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 80px;
 }

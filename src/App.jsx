@@ -3,6 +3,7 @@ import { Qr, LDMode, ScrollIndicator } from "./components";
 import "./App.css";
 
 function App() {
+  let url = "https://dummyjson.com/products";
   return (
     <div>
       {/* QR code generator */}
@@ -12,7 +13,7 @@ function App() {
       {/* <LDMode /> */}
 
       {/* Custom Scroll Indicator */}
-      <ScrollIndicator />
+      <ScrollIndicator url={url + "?limit=100"} />
     </div>
   );
 }
