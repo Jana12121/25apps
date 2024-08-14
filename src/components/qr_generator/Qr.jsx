@@ -33,7 +33,7 @@ export const Qr = () => {
         </div>
       </div>
       <div>
-        <QRCode id="qr-code-value" value={qrCode} size={400} bgColor="#fff" />
+        <QRCode id="qr-code-value" value={qrCode} size={250} bgColor="#fff" />
       </div>
     </div>
   );

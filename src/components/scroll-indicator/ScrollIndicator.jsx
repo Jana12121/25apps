@@ -35,8 +35,7 @@ export const ScrollIndicator = ({ url }) => {
   }, [url]);
 
   function handleScrollPercentage() {
-    const scrolled =
-      document.body.scrollTop || document.documentElement.scrollTop;
+    const scrolled = document.documentElement.scrollTop;
     const height =
       document.documentElement.scrollHeight -
       document.documentElement.clientHeight;
