@@ -1,5 +1,6 @@
 .topContainer {
   position: fixed;
+  height: 40px;
   top: 0;
   z-index: 1;
   width: 100%;
@@ -24,5 +25,5 @@
   flex-direction: column;
   gap: 1rem;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 50px;
 }
