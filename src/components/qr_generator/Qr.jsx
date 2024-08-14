@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import QRCode from "react-qr-code";
-import "./styles.css";
+import styles from "./styles.module.css";
 
 export const Qr = () => {
   const [qrCode, setQrCode] = useState("");
@@ -10,10 +10,10 @@ export const Qr = () => {
     setQrCode(input);
   }
   return (
-    <div className="container">
-      <div className="text-inputs">
+    <div className={styles.container}>
+      <div className={styles.textInputs}>
         <h1>QR Code Generator</h1>
-        <div className="inputs">
+        <div className={styles.inputs}>
           <input
             type="text"
             name="qr-code"

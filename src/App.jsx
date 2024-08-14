@@ -1,11 +1,16 @@
 import { useState } from "react";
 import { Qr } from "./components";
+import { LDMode } from "./components";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Qr />
+      {/* QR code generator */}
+      {/* <Qr /> */}
+
+      {/* Light Dark Mode */}
+      <LDMode />
     </div>
   );
 }
