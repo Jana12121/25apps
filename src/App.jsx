@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { Qr, LDMode, ScrollIndicator, TabsTest } from "./components";
+import {
+  Qr,
+  LDMode,
+  ScrollIndicator,
+  TabsTest,
+  ModalPopupTest,
+} from "./components";
 import "./App.css";
 
 function App() {
@@ -18,7 +24,10 @@ function App() {
       {/* <ScrollIndicator url={url + "?limit=100"} /> */}
 
       {/* Tabs */}
-      <TabsTest />
+      {/* <TabsTest /> */}
+
+      {/* Modal Popup  */}
+      <ModalPopupTest />
     </div>
   );
 }
