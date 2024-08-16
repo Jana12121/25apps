@@ -7,7 +7,7 @@ import {
   ModalPopupTest,
 } from "./components";
 import "./App.css";
-import { Test } from "./components/test/Test";
+// import { Test } from "./components/test/Test";
 
 function App() {
   // Custom Scroll Indicator url for fetch
@@ -29,7 +29,9 @@ function App() {
 
       {/* Modal Popup  */}
       {/* <ModalPopupTest /> */}
-      <Test />
+
+      {/* tests
+      <Test /> */}
     </div>
   );
 }
