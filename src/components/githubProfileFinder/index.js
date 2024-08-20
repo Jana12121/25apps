@@ -1,0 +1,1 @@
+export { GithubProfileFinder } from "./GithubProfileFinder";

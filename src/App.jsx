@@ -5,6 +5,8 @@ import {
   ScrollIndicator,
   TabsTest,
   ModalPopupTest,
+  GithubProfileFinder,
+  SearchAutoComplete,
 } from "./components";
 import "./App.css";
 // import { Test } from "./components/test/Test";
@@ -17,21 +19,19 @@ function App() {
     <div>
       {/* QR code generator */}
       {/* <Qr /> */}
-
       {/* Light Dark Mode */}
       {/* <LDMode /> */}
-
       {/* Custom Scroll Indicator */}
       {/* <ScrollIndicator url={url + "?limit=100"} /> */}
-
       {/* Tabs */}
       {/* <TabsTest /> */}
-
       {/* Modal Popup  */}
       {/* <ModalPopupTest /> */}
+      {/* Github Profile Finder */}
+      {/* <GithubProfileFinder /> */}
 
-      {/* tests
-      <Test /> */}
+      {/* Search AutoComplete */}
+      <SearchAutoComplete />
     </div>
   );
 }
