@@ -28,6 +28,12 @@ export const SearchAutoComplete = () => {
     }
   }
 
+  function handleChooseResult(e) {
+    setDropDown(false);
+    setSearchParam(e.target.innerText);
+    setFilteredUsers([]);
+  }
+
   async function fetchListOfUsers() {
     try {
       setLoading(true);
@@ -69,7 +75,9 @@ export const SearchAutoComplete = () => {
           placeholder="Search Users Here"
         />
       )}
-      {dropDown && <Suggestions data={filteredUsers} />}
+      {dropDown && (
+        <Suggestions data={filteredUsers} click={handleChooseResult} />
+      )}
     </div>
   );
 };
