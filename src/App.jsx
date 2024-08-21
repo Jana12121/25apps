@@ -30,12 +30,10 @@ function App() {
       {/* <ModalPopupTest /> */}
       {/* Github Profile Finder */}
       {/* <GithubProfileFinder /> */}
-
       {/* Search AutoComplete */}
       {/* <SearchAutoComplete /> */}
-
       {/* TicTacToe */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
     </div>
   );
 }

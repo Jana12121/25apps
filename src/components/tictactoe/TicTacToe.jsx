@@ -55,7 +55,6 @@ export const TicTacToe = () => {
     setSquares(Array(9).fill(""));
   }
 
-  console.log(status);
   return (
     <div className={styles.container}>
       <div className={styles.row}>
