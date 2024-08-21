@@ -7,6 +7,7 @@ import {
   ModalPopupTest,
   GithubProfileFinder,
   SearchAutoComplete,
+  TicTacToe,
 } from "./components";
 import "./App.css";
 // import { Test } from "./components/test/Test";
@@ -31,7 +32,10 @@ function App() {
       {/* <GithubProfileFinder /> */}
 
       {/* Search AutoComplete */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+
+      {/* TicTacToe */}
+      <TicTacToe />
     </div>
   );
 }

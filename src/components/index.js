@@ -5,3 +5,4 @@ export { TabsTest } from "./tabs";
 export { ModalPopupTest } from "./ModalPopup";
 export { GithubProfileFinder } from "./githubProfileFinder";
 export { SearchAutoComplete } from "./searchAutoComplete";
+export { TicTacToe } from "./tictactoe";
