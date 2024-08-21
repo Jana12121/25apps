@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.square {
+  border: 1px solid red;
+  font-size: 40px;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  cursor: pointer;
+  float: left;
+}
+
+.square:hover {
+  background-color: red;
+}
+
+.status {
+  margin: 10px 0;
+}
+
+.restartButton {
+  border: 1px solid red;
+  background-color: white;
+  padding: 15px 35px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.restartButton:hover {
+  background-color: red;
+}
